@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device_width, initial-scale=1">
+        <title>viewport</title>
+        <style>
+            
+            /* placeholder alignment (shit) */
+            input[type="memory"]::placeholder {
+            text-align: center;
+            }
+            
+            /* new text box  */
+                        label,
+            textarea {
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            }
+
+            textarea {
+            padding: 10px;
+            max-width: 100%;
+            line-height: 1.5;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-shadow: 1px 1px 1px #999;
+            }
+
+            label {
+            display: block;
+            margin-bottom: 10px;
+            }
+
+        </style>
+    </head> 
+
+    <body> 
+        
+        <div align="center"> 
+            <audio controls autoplay hidden>
+                <source src="music/zoey.mp3">
+            </audio>
+        </div>
+
+        <!-- <form> 
+        <h1> What is your name?</h1> <br>
+    <input type="text" name="field1" placeholder="first"><br>
+    <input type="text" name="field2" placeholder="last"><br>
+    <input type="submit" value="Submit"> -->
+
+<!-- 
+    <label for="story">Tell us a memory:</label> -->
+
+    <!-- <form action="action_page.php" method="post">
+        <input type="memory" name="memory" value="" placeholder="memory" style="width: 300px; height: 300px;"> <br> <br>
+        <input type="submit" value="Submit">
+      </form> -->
+
+
+
+      <label for="story">Tell Me A Secret:</label>
+
+    <form action="action_page.php" method="post"> 
+        <textarea id="memory" name="memory" rows="6" cols="45" type="memory" name="memory" placeholder=""></textarea>
+        <!-- <textarea type="memory" name="memory" value="" placeholder="memory"> -->
+        <br> <input type="submit" value="Transcend" href="./index.html">
+        
+    </form>
+        
+
+
+
+
+
+
+
+
+
+
+
+    </body> 
+
+
+</html> 

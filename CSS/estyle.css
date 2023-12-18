@@ -1,0 +1,10 @@
+body {
+    background-image: url("forest.png");
+    background-repeat: repeat;
+    background-size: 150px; 
+        }
+        
+        h1 {
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
